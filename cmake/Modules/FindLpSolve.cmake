@@ -20,6 +20,7 @@ SET(LPSOLVE_INCLUDE_TRIAL_PATH
     /usr/local/include
     /opt/include
     /opt/local/include
+    $ENV{HOME}/.local/include
     C:/Program\ Files
     )
 

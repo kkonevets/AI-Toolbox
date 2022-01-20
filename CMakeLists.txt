@@ -2,6 +2,9 @@ cmake_minimum_required (VERSION 3.12) # CMP0069 NEW
 
 project (AIToolbox LANGUAGES CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+set(CMAKE_CXX_COMPILER g++-10)
+
 # We define a series of variables for the user. They can be combined in order
 # to build exactly what is needed:
 #

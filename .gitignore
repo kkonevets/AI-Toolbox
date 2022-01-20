@@ -3,3 +3,4 @@
 html/
 *Tests
 *.pyc
+.cache/
